@@ -43,7 +43,7 @@ const Contact = () => {
             "message": message
         }
 
-        axios.post('https://my-json-server.typicode.com/tundeojediran/contacts-api-server/inquiriess', {
+        axios.post('https://my-json-server.typicode.com/tundeojediran/contacts-api-server/inquiries', {
           FORM_DETAILS
         })
         .then((response) => {
